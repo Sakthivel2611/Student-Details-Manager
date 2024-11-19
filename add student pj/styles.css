@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(./img/back1.jpg);
+    background-size: cover;;
+    background-position:content-center;
+
+
+}
+.student-add{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.student-add h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+.student-add > .form > .button > button  {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #651005;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+/* .student-add > .form > .studentForm {
+    margin-top: 10px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+
+} */
+.student-add > .form > .studentForm > .each-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+.student-add > .form > .studentForm > .each-input >input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.button > input{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #651005;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.each-input{
+    display: inline-block;
+}
+.studentForm{
+    display:inline-block;
+}
+.invisible{
+    display: none;
+}
+.visible{
+    display: block;
+}
+
+.student-list > ul > ul > li> li{
+    list-style-type: none;
+    margin-bottom: 8px;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    
+
+}
+ table > tr >th,td{
+    width: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+
+}
+
